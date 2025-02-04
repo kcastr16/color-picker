@@ -1,0 +1,36 @@
+select {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid #ff92c2;
+  background-color: #ffe4ec;
+  color: #d63384;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(255, 146, 194, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+select:hover {
+  background-color: #ffc0d9;
+}
+
+select:focus {
+  border-color: #ff4f93;
+  box-shadow: 0 0 10px rgba(255, 79, 147, 0.5);
+}
+
+option {
+  background: #fff;
+  color: #d63384;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 400px;
+}
